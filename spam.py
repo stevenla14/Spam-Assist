@@ -49,11 +49,16 @@ message_content = message_fileObj.read()
 print('Enter the subject for the email:')
 subject = input()
 
+# counter stuff...
+counter = 1
 for i in input_list:
     recipient = i
-    adjusted_subject = 'Subject: ' + subject + '\n'
+    # counter ...
+    adjusted_subject = 'Subject: ' + subject + ' (' + str(counter) + ')' + '\n'
     message = message_content.replace('\\n', '\n')
     smtpObj.sendmail(full_email, recipient, adjusted_subject + message)
+    # counter ...
+    counter += 1
 
 smtpObj.quit()
 if not input_list:
