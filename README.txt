@@ -1,7 +1,4 @@
-Spam Assist (2018)
-
-Author: Steven La
-(https://github.com/stevenla14)
+spam_assist
 ------------------
 About:
 This program was originally written to 'troll' my friend who's been complaining about 
@@ -21,6 +18,5 @@ to be the respective files in Steps 1 and 2, but you can make your own/rename th
 (Just make sure to put in the right file names when prompted.)
 
 Documented Limitations:
-
 1.) Only supports email providers: Gmail, Outlook, Hotmail, Yahoo, AT&T, Comcast, Verizon
 2.) Fairly slow if a lot of emails are within the file...
