@@ -1,8 +1,7 @@
 spam_assist
 ------------------
 About:
-This program was originally written to 'troll' my friend who's been complaining about 
-email spam for a while now. It takes in a file containing a list of emails, and sends 
+It takes in a file containing a list of emails, and sends 
 the contents of another "spam" message file to each email. This project was completed 
 in the span of 2 days. It is compatible only with Python versions 3 and above.
 
